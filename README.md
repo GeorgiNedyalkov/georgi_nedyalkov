@@ -9,3 +9,10 @@ My own website for my porftolio, projects, and writing.
 - [x] Initialize repository
 
 ## Create Navbar
+
+- [x] Create Navbar
+- [x] Style Navbar
+
+## Install Icon Dependencies
+
+- [x] Install material ui
