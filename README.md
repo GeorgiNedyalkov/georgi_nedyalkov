@@ -4,6 +4,8 @@ My own website for my porftolio, projects, and writing.
 
 ## Create React App
 
-- [] Clean up unnessary files
-- [] Write down project description
-- [] Initialize repository
+- [x] Clean up unnessary files
+- [x] Write down project description
+- [x] Initialize repository
+
+## Create Navbar

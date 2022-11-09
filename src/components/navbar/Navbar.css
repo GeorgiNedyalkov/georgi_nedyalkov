@@ -1,0 +1,27 @@
+.navbar {
+    width: 100vw;
+    height: 60px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-link:hover, .nav-logo:hover {
+    color: blueviolet;
+}
+
+.nav-logo {
+   font-size: 3rem;
+   cursor: pointer;
+}
