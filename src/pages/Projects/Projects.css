@@ -1,0 +1,35 @@
+.projects {
+    margin: 30px 50px 0px 50px;
+}
+
+.projects-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.project-card {
+    height: 500px;
+    width: 25vw;
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-name {
+    color: var(--primary-color);
+}
+
+.project-date {
+    color: beige;
+    font-weight: bold;
+    text-align: end;
+}
+
+.project-image {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(23, 23, 23);
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -30,5 +30,5 @@
 .nav-link:hover, 
 .nav-logo:hover,
 .nav-icon:hover {
-    color: blueviolet;
+    color: var(--primary-color);
 }

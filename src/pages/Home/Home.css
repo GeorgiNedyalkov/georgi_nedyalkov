@@ -16,7 +16,7 @@
 }
 
 .highlight {
-    color: purple
+    color: var(--primary-color);
 }
 
 .details {
@@ -28,4 +28,9 @@
 
 .icon {
     font-size: 5rem;
+}
+
+.hero-img {
+    height: 400px;
+    border-radius: 20%;
 }

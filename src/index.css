@@ -11,7 +11,8 @@
 
 :root {
   --text-color: #fff;
-  --bg: rgb(36, 34, 34);
+  --primary-color: rgb(52, 213, 41);
+  --bg: rgb(11, 11, 11);
 }
 
 body {
@@ -30,6 +31,7 @@ a {
 
 h1 {
   font-size: 4em;
+  color: var(--primary-color);
 }
 
 h2 {
@@ -54,6 +56,7 @@ h6 {
 
 p {
   font-size: 1.1em;
+  line-height: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
