@@ -1,10 +1,13 @@
-import "./Navbar.css"
-import EmailIcon from "@mui/icons-material/Email"
+import "./Navbar.css";
+import EmailIcon from "@mui/icons-material/Email";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
-      <span className="nav-logo">G.</span>
+    <nav className="navbar">
+      <Link to="/">
+        <span className="nav-logo">G.</span>
+      </Link>
       <ul className="nav-links">
         <li className="nav-link">projects</li>
         <li className="nav-link">writing</li>
@@ -16,8 +19,8 @@ const Navbar = () => {
           <EmailIcon className="nav-icon" />
         </a>
       </span>
-    </div>
-  )
-}
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;
