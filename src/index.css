@@ -13,10 +13,12 @@
   --text-color: #fff;
   --primary-color: rgb(52, 213, 41);
   --bg: rgb(11, 11, 11);
+  
 }
 
 body {
   background-color: var(--bg);
+  width: 1028px;
 }
 
 /* GLOBAL STYLES */
@@ -59,6 +61,6 @@ p {
   line-height: 1.5rem;
 }
 
-h1, h2, h3, h4, h5, h6, p, a {
+h1, h2, h3, h4, h5, h6, p, a, li{
   color: var(--text-color);
 }

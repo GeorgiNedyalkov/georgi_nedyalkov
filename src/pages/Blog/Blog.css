@@ -1,0 +1,21 @@
+.blog {
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.blog-title {
+    color: var(--primary-color);
+}
+
+.blog-text {
+    margin: 20px 0px;;
+}
+
+.blog-img {
+    width: 400px;
+}
+
+.blog-hero {
+    display: flex;
+    gap: 20px;
+}
