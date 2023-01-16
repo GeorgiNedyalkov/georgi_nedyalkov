@@ -1,33 +1,29 @@
 import Navbar from "../../components/navbar/Navbar";
 import "./Projects.css";
 import { projectsList } from "../../data/projectsList";
+import Project from "../../components/project/Project";
 
 const Projects = () => {
-  console.log(projectsList);
   return (
     <>
       <Navbar />
       <main className="projects">
         <h1>Projects</h1>
         <p>Here you can see everythin I have ever coded.</p>
-
-        <div className="projects-wrapper">
+        <ul className="projects__wrapper">
           {projectsList.map((project) => {
-            const { id, name, description, date, image, url } = project;
             return (
-              <div className="project-card" key={id}>
-                <h5 className="project-name">{name}</h5>
-                <p className="project-date">{date}</p>
-                <img className="project-image" src={image} alt="" />
-                <p className="project-desc">{description}</p>
-                <br />
-                <a className="project-link" href="#">
-                  {url}
-                </a>
-              </div>
+              <li key={project.id}>
+                <Project
+                  title={project.title}
+                  date={project.date}
+                  desc={project.desc}
+                  image={project.image}
+                />
+              </li>
             );
           })}
-        </div>
+        </ul>
       </main>
     </>
   );
