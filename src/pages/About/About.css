@@ -1,0 +1,16 @@
+.about {
+    margin: 20px 20px;
+}
+
+.box {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 2fr 1fr;
+}

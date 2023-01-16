@@ -2,17 +2,16 @@
 
 My own website for my porftolio, projects, and writing.
 
-## Create React App
+This website will be my main source of sharing my work both in development and in other interesting projects.
 
-- [x] Clean up unnessary files
-- [x] Write down project description
-- [x] Initialize repository
+The idea is to showcase my skills, share my software projects, share my knowledge about different things,
+and provide a place where I can show all the things that I work, which may hopefully help others.
 
-## Create Navbar
+Date: 16.01.2023
 
-- [x] Create Navbar
-- [x] Style Navbar
+Tasks:
 
-## Install Icon Dependencies
-
-- [x] Install material ui
+- Create a Project component that show projects in a good way.
+- Start Developing the About me Page.
+- Start the 100 days of coding challenge.
+- Fix the structure and the layout and create a mobile first design approach.
