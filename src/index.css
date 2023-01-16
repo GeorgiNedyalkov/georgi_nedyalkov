@@ -13,7 +13,9 @@
   --text-color: #fff;
   --primary-color: rgb(52, 213, 41);
   --bg: rgb(11, 11, 11);
-  
+
+  /* sizing */
+  --container-width: 1160px;
 }
 
 body {

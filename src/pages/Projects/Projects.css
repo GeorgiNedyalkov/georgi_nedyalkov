@@ -1,10 +1,6 @@
-.projects {
-    margin: 30px 50px 0px 50px;
-}
-
 .projects__wrapper {
+    width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 100px;
+    flex-direction: column;
+    gap: 20px;
 }

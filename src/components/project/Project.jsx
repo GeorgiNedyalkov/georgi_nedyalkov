@@ -8,9 +8,6 @@ const Project = ({ title, date, desc, imgage, github, demo }) => {
     <div className="project">
       <h2 className="project__title">{title}</h2>
       <p className="project__date">{date}</p>
-      <div className="project__logo">
-        <img src={imgage} alt="" />
-      </div>
       <p className="project__description">{desc}</p>
       <div className="project__links">
         <button className="project__btn">

@@ -1,31 +1,18 @@
 .project {
     border: 1px solid white;
-    width: 500px;
-    height: 400px;
-    margin: 20px 0px;
-    padding: 20px;
+    width: 90vw;
+    height: auto;
+    padding: 1rem;
 }
 
 .project__title {
     margin-bottom: 10px;
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: var(--primary-color);
 }
 
 .project__date {
     color: var(--primary-color);
-}
-
-.project__logo {
-    object-fit: cover;
-}
-
-.project__logo > img {
-    width: 100%;
-}
-
-.project__logo-icon {
-    color: white;
 }
 
 .project__description {
