@@ -1,7 +1,7 @@
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import "./Projects.css";
 import { projectsList } from "../../data/projectsList";
-import Project from "../../components/project/Project";
+import Project from "../../components/Project/Project";
 
 const Projects = () => {
   return (

@@ -1,8 +1,8 @@
 .project {
-    border: 1px solid white;
-    width: 90vw;
+    width: 500px;
     height: auto;
     padding: 1rem;
+    border: 1px solid white;
 }
 
 .project__title {

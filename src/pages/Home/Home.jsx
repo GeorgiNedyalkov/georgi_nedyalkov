@@ -1,6 +1,7 @@
 import "./Home.css";
-import Navbar from "../../components/navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import { GitHub, Instagram, LinkedIn } from "@mui/icons-material";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -12,6 +13,8 @@ const Home = () => {
           <h1>Georgi Nedyalkov</h1>
           <p>
             Welcome to my <b className="highlight">Digital Laboratory! 🧪</b>{" "}
+          </p>
+          <p>
             <br />I am just starting out learning Web Development. <br />{" "}
             Interested in
             <b className="highlight"> blockchain</b>,{" "}
@@ -49,6 +52,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

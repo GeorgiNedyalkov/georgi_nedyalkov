@@ -3,11 +3,11 @@ import "./Project.css";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-const Project = ({ title, date, desc, imgage, github, demo }) => {
+const Project = ({ title, date, desc, image, github, demo }) => {
   return (
     <div className="project">
+      <time className="project__date">{date}</time>
       <h2 className="project__title">{title}</h2>
-      <p className="project__date">{date}</p>
       <p className="project__description">{desc}</p>
       <div className="project__links">
         <button className="project__btn">

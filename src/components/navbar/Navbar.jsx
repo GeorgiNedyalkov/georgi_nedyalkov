@@ -1,10 +1,6 @@
 import "./Navbar.css";
 import EmailIcon from "@mui/icons-material/Email";
 import { Link } from "react-router-dom";
-import Projects from "../../pages/Projects/Projects";
-import Blog from "../../pages/Blog/Blog";
-import About from "../../pages/About/About";
-import Contact from "../../pages/Contact/Contact";
 
 const Navbar = () => {
   return (

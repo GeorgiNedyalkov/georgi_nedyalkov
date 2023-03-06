@@ -1,5 +1,17 @@
 # About me Page
 
+## Table of contents:
+
+_-Short description_
+_-Contact links: Github, LinkedIn, Instagram_
+_-What I am doing now_
+_Tools_
+_Hardware_
+_Publications_
+_Songs_
+_Resume_: Jobs, skills, experience.
+_Education_
+
 Hi, I am Georgi Nedyalkov an aspiring web developer focusing on React.
 
 For the past three years I have been working as a Real Estate Marketer working with a team on:
