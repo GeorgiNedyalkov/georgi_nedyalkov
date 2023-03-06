@@ -52,6 +52,14 @@ const Home = () => {
           </div>
         </div>
       </section>
+      {/* <section>
+        <h2>What I am doing now?</h2>
+        <p>Currently I am looking to find an entry job in web development.</p>
+        <p>Challenge: 100 days consecuyve days of 12 hours of work</p>
+        <p>Deliverables: 3 main projects</p>
+        <p>5 medium projects</p>
+        <p>10 small projects</p>
+      </section> */}
       <Footer />
     </div>
   );

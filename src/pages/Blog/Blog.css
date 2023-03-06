@@ -1,6 +1,6 @@
 .blog {
-    padding-top: 50px;
-    padding-left: 100px;
+    width: 100vw;
+    margin: 0 auto;
 }
 
 .blog-title {

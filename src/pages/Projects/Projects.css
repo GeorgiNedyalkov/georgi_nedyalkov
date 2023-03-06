@@ -1,6 +1,4 @@
 .projects__wrapper {
-    width: 100vw;
     display: flex;
-    flex-direction: column;
     gap: 20px;
 }

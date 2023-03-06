@@ -23,6 +23,11 @@ body {
   width: 1028px;
 }
 
+main {
+  width: var(--container-width);
+  margin: 0 auto;
+}
+
 /* GLOBAL STYLES */
 li {
   list-style-type: none;
